@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Movie News | Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="base.css"/>
+	<link rel="stylesheet" type="text/css" href="form.css"/>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	
+</head>
+
+<body id="signinLanding">
+	<main class="wrapper">
+		<header>
+			<h1>Movie News</h1>
+		</header>
+		
+		<section id="sign">
+			<header>
+				<h1>Sign up</h1>
+			</header>
+			<article id="loginForm">
+				<form action="#" method="post">
+					<label for="email">Email:</label>
+					<input type="text" placeholder="Enter email" name="email" required>
+				
+					<label for="pwd"><i class="fas fa-lock"></i>Password: </label>
+					<input type="password" placeholder="Enter password" name="pwd" required>
+					
+					<label for="pwd-repeat"><i class="fas fa-lock"></i> Please enter password: </label>
+					<input type="password" placeholder="Repeat Password" name="pwd" required>
+						
+						
+					<label>Remember me.</label>
+					<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+				
+					<div>
+					<button type="submit" id="signBtn"><a href="index.html">Sign-Up</a></button>
+					</div>
+				</form>
+			</article>
+		</section>
+	</main>
+	
+	
+	<script>
+	 
+		var modal = document.getElementById('sign');
+		
+		window.onclick = function(event){
+			if(event.target == modal) {
+				modl.style.display = "none2;
+			}
+		}
+	</script>
+</body>
+</html>
+		
+		
+		
+     		
+				
+				
+		
